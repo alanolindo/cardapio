@@ -1,0 +1,179 @@
+.container-inicial{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.inicial-img{
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.inicial-descricao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+
+.container-inicial button{
+    background-color:#E82933;
+    width: 199px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-inicial p{
+    color: #876363;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+.navbar h2{
+    margin-left: 20px;
+}
+
+.navbar div{
+    display: flex;
+    gap:20px;
+    margin-right: 20px;
+}
+
+.navbar div button{
+    width: 91px;
+    height: 40px;
+    background-color: #F5F0F0;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+margin-top: 12px;
+}
+
+.container-cadastro{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-cadastro h1{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 40px;
+}
+
+.container-cadastro form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.container-cadastro form input {
+    width: 448px;
+    height: 56px;
+    border-radius: 8px;
+    border: solid #876363 1px;
+    outline: none;
+}
+
+.container-cadastro form button{
+ width:448px;
+ height:40px;
+border-radius: 8px;
+background-color: #E82933;
+border: none;
+cursor: pointer;
+color:white;
+font-size: 15px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+}
+
+.card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 301px;
+    height: 391px;
+    column-gap: 12px;
+    padding: 16px;
+}
+.container-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-menu input{
+    width: 920px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.container-menu h1{
+    margin-left: 16px;
+}
+
+.detalhes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    height: 900px;
+}
+
+.detalhes img{
+    width: 728px;
+    height: 419px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.detalhes button{
+width: 480px;
+height: 40px;
+color: white;
+background-color: #E82933;
+border-radius: 8px;
+border: none;
+cursor: pointer;
+}
+
+.caixa{
+    display: flex;
+    align-items:center ;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.caixa-img{
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.caixa h1{
+font-size: 16px;
+}
+
+.caixa h2{
+    font-size: 16px;
+}
+
+.caixa-preco{
+    margin-left: 70%;
+}
